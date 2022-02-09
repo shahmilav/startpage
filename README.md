@@ -1,6 +1,6 @@
 # startpage
 
-Custom terminal-style startpage.
+Custom dynamic terminal-style startpage.
 
 
 

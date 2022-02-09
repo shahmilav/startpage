@@ -74,6 +74,7 @@ a:hover {
     color: white;
     font-family: monospace;
     font-size: 15px;
+    font-weight: bold;
     padding: 3px;
     border-radius: 5px;
 }

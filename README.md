@@ -26,5 +26,5 @@ After cloning the repo, simply edit HTML and CSS as you normally would. To chang
 
 ## Easter Eggs
 * The terminal tabs actually work! 
-  * ```cat``` will actually show the source code of ```index.html```~
+  * ```cat``` will actually show the source code of ```index.html```!
   * ```git-remote-https``` will take you right to this repo.

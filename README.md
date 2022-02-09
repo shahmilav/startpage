@@ -1,6 +1,7 @@
-# startpage
+<h1 align="center">Terminal-style Startpage.</h1>
 
-Custom dynamic terminal-style startpage.
+![Preview](images/screenshot.png)
+
 
 
 

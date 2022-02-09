@@ -1,13 +1,17 @@
 #terminal {
     background-color: #2e3440;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid #e5e9f0;
     display: table;
     position: absolute;
     height: 50%;
     width: 50%;
     border-radius: 10px;
 
+}
+
+hr {
+    color: #e5e9f0;
 }
 
 #code {

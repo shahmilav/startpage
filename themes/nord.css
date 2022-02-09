@@ -1,0 +1,92 @@
+#terminal {
+    background-color: #2e3440;
+    padding: 10px;
+    border: 1px solid grey;
+    display: table;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+#code {
+    font-family: monospace;
+    color: #d8dee9;
+    font-size: 17px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #d8dee9
+}
+
+/* mouse over link */
+a:hover {
+    color: #88c0d0;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+    margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    background-color: #2e3440;
+    color: #8fbcbb;
+    font-family: monospace;
+    font-size: 17px;
+    border: none;
+    border-color: transparent;
+    font-style: italic;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tab {
+    background-color: #2e3440;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.active-tab {
+    background-color: #3b4252;
+    border: 1px solid #e5e9f0;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4c566a;
+}

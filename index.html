@@ -1,72 +1,59 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<title>~/new-tab</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="style.css" />
-	</head>
+<head>
+    <title>~/new-tab</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-	<body>
-
-		<!-- Terminal -->
-		<div id="terminal">
-
-			<div>
-				<!-- Traffic Light Dots -->
-				<span class="dot" style="background-color: #fe5b56;"></span>
-				<span class="dot" style="background-color: #ffbd44;"></span>
-				<span class="dot" style="background-color: #00ca4e;"></span>
-				<span id="code" style="padding-left: 20px"></span>
-
-				<!-- Tabs -->
-
-				<span class="active-tab">[zsh] ~/new-tab</span>
-				<a href="https://raw.githubusercontent.com/shahmilav/startpage/main/index.html"><span class="tab">[cat]
-						~/startpage.html</span></a>
-				<a href="https://github.com/shahmilav/startpage"><span class="tab">[git-remote-https]</span></a>
-			</div>
-
-			<hr>
-
-			<!-- Commands -->
-			<div>
-				<p id="code"> $ cd ~/new-tab</p>
-				<p id="code"> $ tree </p>
-			</div>
-
-
-			<!-- Bookmarks (tree result) -->
-			<div>
-				<p id="code" style="margin-bottom:1px;"><strong> .</strong></p>
-				<p id="code" style="margin : 0; padding-top:0;"> └── dev </p>
-				<p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://github.com/">
-						github </a>
-				</p>
-				<p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a
-						href="https://stackoverflow.com/">
-						stack overflow </a></p>
-				<p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://leetcode.com/">
-						leetcode </a></p>
-				<p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://devdocs.io/">
-						devdocs </a></p>
-				<p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; └──<a href="http://localhost:8080/">
-						localhost:8080 </a></p>
-
-				<br>
-			</div>
-
-			<!-- Search bar -->
-			<div>
-				<form class="form-inline" name="q" action="https://www.google.com/search" method="get">
-					<p id="code"> $ search-google:&nbsp; </p>
-					<input type="text" name="q" size="25" maxlength="255" value="" />
-				</form>
-			</div>
-
-
-		</div>
-	</body>
+<body>
+    <!-- Terminal -->
+    <div id="terminal">
+        <div>
+            <!-- Traffic Light Dots -->
+            <span class="dot" style="background-color: #fe5b56;"></span>
+            <span class="dot" style="background-color: #ffbd44;"></span>
+            <span class="dot" style="background-color: #00ca4e;"></span>
+            <span id="code" style="padding-left: 20px"></span>
+            <!-- Tabs -->
+            <span class="active-tab">[zsh] ~/new-tab</span>
+            <a href="https://raw.githubusercontent.com/shahmilav/startpage/main/index.html"><span class="tab">[cat]
+                    ~/startpage.html</span></a>
+            <a href="https://github.com/shahmilav/startpage"><span class="tab">[git-remote-https]</span></a>
+        </div>
+        <hr>
+        <!-- Commands -->
+        <div>
+            <p id="code"> $ cd ~/new-tab</p>
+            <p id="code"> $ tree </p>
+        </div>
+        <!-- Bookmarks (tree result) -->
+        <div>
+            <p id="code" style="margin-bottom:1px;"><strong> .</strong></p>
+            <p id="code" style="margin : 0; padding-top:0;"> └── dev </p>
+            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://github.com/">
+                    github </a>
+            </p>
+            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://stackoverflow.com/">
+                    stack overflow </a></p>
+            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://leetcode.com/">
+                    leetcode </a></p>
+            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://devdocs.io/">
+                    devdocs </a></p>
+            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; └──<a href="http://localhost:8080/">
+                    localhost:8080 </a></p>
+            <br>
+        </div>
+        <!-- Search bar -->
+        <div>
+            <form class="form-inline" name="q" action="https://www.google.com/search" method="get">
+                <p id="code"> $ search-google:&nbsp; </p>
+                <input type="text" name="q" size="25" maxlength="255" value="" />
+            </form>
+        </div>
+    </div>
+</body>
 
 </html>

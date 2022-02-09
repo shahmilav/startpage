@@ -3,3 +3,28 @@
 [![Preview](images/screenshot.png)](https://shahmilav.github.io/startpage/)
 
 View live [here](https://shahmilav.github.io/startpage/).
+
+<hr>
+
+## Table of Contents
+
+* [Features](#features)
+* [Installation](#installation)
+* [Config[(#configure)
+* [Easter eggs](#easter-eggs)
+
+<hr>
+
+## Features
+
+## Installation
+No need! To keep the default setup (and unfortunately, the bookmarks) just visit https://shahmilav.github.io/startpage/.
+However, in order to be able to configure stuff, clone the git repository: ```git clone https://github.com/shahmilav/startpage terminal-startpage``` and see [the below section.](#configure)
+
+## Configure
+After cloning the repo, simply edit HTML and CSS as you normally would. To change the bookmarks, see lines [```32-48```](https://github.com/shahmilav/startpage/blob/d99331ae99ef4c1c14252362a48eceeba0848324/index.html#L32-L48).
+
+## Easter Eggs
+* The terminal tabs actually work! 
+  * ```cat``` will actually show the source code of ```index.html```~
+  * ```git-remote-https``` will take you right to this repo.

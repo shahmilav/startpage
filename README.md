@@ -10,7 +10,7 @@ View live [here](https://shahmilav.github.io/startpage/).
 
 * [Features](#features)
 * [Installation](#installation)
-* [Config[(#configure)
+* [Config](#configure)
 * [Easter eggs](#easter-eggs)
 
 <hr>

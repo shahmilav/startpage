@@ -1,3 +1,5 @@
 # startpage
 
-Please Read Me.
+Custom terminal-style startpage.
+
+View live [here](https://shahmilav.github.io/startpage/).

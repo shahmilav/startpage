@@ -32,7 +32,7 @@ Currently we have one theme, **Nord.** It is the default theme. Change it by cha
 ### Bookmarks
 To change the bookmarks, see lines [```32-48```](https://github.com/shahmilav/startpage/blob/d99331ae99ef4c1c14252362a48eceeba0848324/index.html#L32-L48).
 ### Search Engine
-Edit lines [```51-54```](https://github.com/shahmilav/startpage/blob/d99331ae99ef4c1c14252362a48eceeba0848324/index.html#L51-L54).
+Edit lines [```51-54```](https://github.com/shahmilav/startpage/blob/d99331ae99ef4c1c14252362a48eceeba0848324/index.html#L51-L54). The default is DuckDuckGo.
 
 ## Easter Eggs
 * The terminal tabs actually work! 

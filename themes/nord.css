@@ -20,6 +20,18 @@ hr {
     font-size: 17px;
 }
 
+#syntax {
+    color: #a3be8c
+}
+
+#dir {
+    color: #b48ead
+}
+
+#ls-dir {
+    color: #5e81ac;
+}
+
 a:link,
 a:visited {
     text-decoration: none;

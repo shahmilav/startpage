@@ -26,6 +26,9 @@ However, in order to be able to configure stuff, clone the git repository: ```gi
 ## Configure
 After cloning the repo, simply edit HTML and CSS as you normally would. 
 
+### Colorschemes!!
+Currently we have one theme, **Nord.** It is the default theme. Change it by changing the index.html style sheet. More themes to come soon!
+
 ### Bookmarks
 To change the bookmarks, see lines [```32-48```](https://github.com/shahmilav/startpage/blob/d99331ae99ef4c1c14252362a48eceeba0848324/index.html#L32-L48).
 ### Search Engine

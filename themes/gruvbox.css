@@ -1,81 +1,108 @@
 #terminal {
-    background-color: black;
-    border: 1px solid grey;
+    background-color: #282727;
+    padding: 10px;
+    border: 1px solid #ebdab1;
+    display: table;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
 
 }
 
+hr {
+    color: #ebdab1;
+}
+
 #code {
-    color: lime;
+    font-family: monospace;
+    color: #ebdab1;
+    font-size: 17px;
+}
+
+#syntax {
+    color: #98961a
+}
+
+#dir {
+    color: #b06185
+}
+
+#ls-dir {
+    color: #458487;
 }
 
 a:link,
 a:visited {
-    color: lime
+    text-decoration: none;
+    color: #ebdab1
 }
 
 /* mouse over link */
 a:hover {
-    color: #00ffff;
+    color: #d55c0e;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+    margin: 5px 10px 5px 0;
 }
 
 /* Style the input fields */
 .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    background-color: #282727;
+    color: #d55c0e;
+    font-family: monospace;
+    font-size: 17px;
+    border: none;
+    border-color: transparent;
+    font-style: italic;
+}
 
-    background-color: black;
-    color: lime;
-
+.dot {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .tab {
-    background-color: #1f1f21;
+    background-color: #282727;
     color: white;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 .active-tab {
-    background-color: #171718;
+    background-color: #616060;
+    border: 1px solid #ebdab1;
     color: white;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
-    background-color: #181818;
-}
-
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #f5f5f5;
-    }
-
-    #terminal {
-        background-color: white;
-    }
-
-    #code {
-        background-color: white;
-        color: black;
-    }
-
-    .active-tab {
-        background-color: lightgrey;
-        color: black;
-    }
-
-    .tab {
-        background-color: #f5f5f5;
-        color: black;
-    }
-
-    .form-inline input {
-        background-color: white;
-        color: black
-    }
-
-    a:link,
-    a:visited {
-        color: black;
-    }
-
-    a:hover {
-        color: hotpink;
-    }
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282727;
 }

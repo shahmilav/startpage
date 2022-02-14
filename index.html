@@ -1,77 +1,77 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+  <head>
     <title>~/new-tab</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <!-- 
-        For custom theme, comment out the above line and uncomment the following one. -->
-        <!-- <link rel="stylesheet" href="themes/nord.css" /> -->
-</head>
+      For custom theme, comment out the above line and uncomment the following one. -->
+      <link rel="stylesheet" href="themes/nord.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Terminal -->
     <div id="terminal">
-        <div>
-            <!-- Traffic Light Dots -->
-            <span class="dot" style="background-color: #fe5b56;"></span>
-            <span class="dot" style="background-color: #ffbd44;"></span>
-            <span class="dot" style="background-color: #00ca4e;"></span>
-            <span id="code" style="padding-left: 20px"></span>
-            <!-- Tabs -->
-            <span class="active-tab">[zsh] ~/new-tab</span>
-            <a href="https://raw.githubusercontent.com/shahmilav/startpage/main/index.html"><span class="tab">
-                    [cat] ~/index.html</span></a>
-            <a href="https://github.com/shahmilav/startpage"><span class="tab">[git-remote-https]</span></a>
-        </div>
-        <hr>
-        <!-- Commands -->
-        <div>
-            <p id="code"> <span id="syntax"> $ cd </span>
-                <span id="dir"> <u> ~/new-tab </u> </span>
-            </p>
-            <p id="code">
-                <span id="syntax"> $ tree</span>
-            </p>
-        </div>
-        <!-- Bookmarks (tree result) -->
-        <div>
-            <p id="code" style="margin-bottom:1px;">
-                <span id="ls-dir">
-                    <strong> . </strong>
-                </span>
-            </p>
-            <p id="code" style="margin : 0; padding-top:0;"> └──
-                <span id="ls-dir">
-                    <strong> dev </strong>
-                </span>
-            </p>
-            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://github.com/">
-                    github </a>
-            </p>
-            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://stackoverflow.com/">
-                    stack overflow </a></p>
-            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://leetcode.com/">
-                    leetcode </a></p>
-            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://devdocs.io/">
-                    devdocs </a></p>
-            <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; └──<a href="http://localhost:8080/">
-                    localhost:8080 </a></p>
-            <br>
-        </div>
-        <!-- Search bar -->
-        <div>
-            <form class="form-inline" name="q" action="https://www.google.com/search" method="get">
-                <p id="code">
-                    <span id="syntax"> $ search-google&nbsp; </span>
-                </p>
-                <input autofocus="autofocus" type="text" name="q" size="25" maxlength="255" value="" />
-            </form>
-        </div>
+      <div>
+        <!-- Traffic Light Dots -->
+        <span class="dot" style="background-color: #fe5b56;"></span>
+        <span class="dot" style="background-color: #ffbd44;"></span>
+        <span class="dot" style="background-color: #00ca4e;"></span>
+        <span id="code" style="padding-left: 20px"></span>
+        <!-- Tabs -->
+        <span class="active-tab">[zsh] ~/new-tab</span>
+        <a href="https://raw.githubusercontent.com/shahmilav/startpage/main/index.html"><span class="tab">
+            [cat] ~/index.html</span></a>
+        <a href="https://github.com/shahmilav/startpage"><span class="tab">[git-remote-https]</span></a>
+      </div>
+      <hr>
+      <!-- Commands -->
+      <div>
+        <p id="code"> <span id="syntax"> $ cd </span>
+        <span id="dir"> <u> ~/new-tab </u> </span>
+        </p>
+        <p id="code">
+        <span id="syntax"> $ tree</span>
+        </p>
+      </div>
+      <!-- Bookmarks (tree result) -->
+      <div>
+        <p id="code" style="margin-bottom:1px;">
+        <span id="ls-dir">
+          <strong> . </strong>
+        </span>
+        </p>
+        <p id="code" style="margin : 0; padding-top:0;"> └──
+        <span id="ls-dir">
+          <strong> dev </strong>
+        </span>
+        </p>
+        <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://github.com/">
+          github </a>
+        </p>
+        <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://stackoverflow.com/">
+          stack overflow </a></p>
+        <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://leetcode.com/">
+          leetcode </a></p>
+        <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; ├──<a href="https://devdocs.io/">
+          devdocs </a></p>
+        <p id="code" style="margin : 0; padding-top:0;"> &emsp;&emsp;&emsp; └──<a href="http://localhost:8080/">
+          localhost:8080 </a></p>
+        <br>
+      </div>
+      <!-- Search bar -->
+      <div>
+        <form class="form-inline" name="q" action="https://www.google.com/search" method="get">
+          <p id="code">
+          <span id="syntax"> $ search-google&nbsp; </span>
+          </p>
+          <input autofocus="autofocus" type="text" name="q" size="25" maxlength="255" value="" />
+        </form>
+      </div>
     </div>
-</body>
+  </body>
 
 </html>

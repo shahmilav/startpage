@@ -88,7 +88,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #181818;
+    background-color: #3b4252;
 }
 
 @media (prefers-color-scheme: light) {

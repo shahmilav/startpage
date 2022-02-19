@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
     <h1 align="center">
       Terminal-style Startpage.
-    </h1>[![Preview](images/screenshot.png)](https://shahmilav.github.io/startpage/)
+    </h1>![Preview](images/screenshot.png)](https://shahmilav.github.io/startpage/)
     View live [here](https://shahmilav.github.io/startpage/).
-    <hr>
+    
     ## Table of Contents * [Features](#features) *
     [Installation](#installation) * [Config](#configure) * [Easter
     eggs](#easter-eggs)
@@ -33,5 +27,3 @@
     actually work! * ```cat``` will actually show the source code
     of ```index.html```! * ```git-remote-https``` will take you
     right to this repo.
-  </body>
-</html>

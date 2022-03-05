@@ -17,7 +17,7 @@ hr {
 #code {
     font-family: monospace;
     color: #abb2bf;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #syntax {
@@ -62,7 +62,7 @@ a:hover {
     background-color: #191b1f;
     color: #56b6c2;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 20px;
     border: none;
     border-color: transparent;
     font-style: italic;
@@ -79,7 +79,7 @@ a:hover {
     background-color: #191b1f;
     color: white;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 17px;
     padding: 3px;
     border-radius: 5px;
 }
@@ -89,7 +89,7 @@ a:hover {
     border: 1px solid #abb2bf;
     color: white;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     padding: 3px;
     border-radius: 5px;

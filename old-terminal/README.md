@@ -2,7 +2,7 @@
 
 [![Preview](images/screenshot.png)](https://shahmilav.github.io/startpage/)
 
-View live [here](https://shahmilav.github.io/startpage/).
+View live [here](https://shahmilav.github.io/startpage/old-terminal).
 
 <hr>
 

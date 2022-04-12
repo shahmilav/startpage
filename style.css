@@ -1,133 +1,144 @@
-#terminal {
-    background-color: black;
-    padding: 10px;
-    border: 1px solid grey;
-    display: table;
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    border-radius: 10px;
-
-}
-
-#code {
-    font-family: monospace;
-    color: lime;
-    font-size: 17px;
-}
-
-a:link,
-a:visited {
-    text-decoration: none;
-    color: lime
-}
-
-/* mouse over link */
-a:hover {
-    color: #00ffff;
-}
-
-/* Style the form - display items horizontally */
-.form-inline {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-/* Add some margins for each label */
-.form-inline label {
-    margin: 5px 10px 5px 0;
-}
-
-/* Style the input fields */
-.form-inline input {
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    background-color: black;
-    colr: #00ffff;
-    font-family: monospace;
-    font-size: 17px;
-    border: none;
-    border-color: transparent;
-    font-style: italic;
-}
-
-.dot {
-    height: 13px;
-    width: 13px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.tab {
-    background-color: #1f1f21;
-    color: white;
-    font-family: monospace;
-    font-size: 15px;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-.active-tab {
-    background-color: #171718;
-    border: 1px solid grey;
-    color: white;
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 3px;
-    border-radius: 5px;
+:root {
+    --color-bg: #000000;
+    --color-fg: #acb1bd;
+    --color-link: #73ade9;
+    --color-link-visited: #73ade9;
+    --color-link-hover: #6fb3bf;
 }
 
 html,
 body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: "SFMono Nerd Font", monospace;
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    display: flex;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 460px 600px 1fr;
+    grid-template-areas:
+        ". left right .";
+    column-gap: 60px;
+    justify-items: left;
     align-items: center;
+    min-height: 100%;
+}
+
+.left {
+    grid-area: left;
+    aspect-ratio: 1/1;
+}
+
+.terminal {
+    grid-area: right;
+    height: 44%;
+    width: 110%;
+    background-color: #191b1f;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    /*border-radius: 5px;*/
+    font-family: 'SFMono Nerd Font', 'JetBrainsMono Nerd Font', monospace;
+}
+
+.image img {
+    padding-top: 100px;
+    max-width: 75%;
+    max-height: 75%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    padding: 0px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 24px;
+    font-size: 16px;
+    padding-top: 60px;
+
+}
+
+.head2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 24px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.bookmarks {
+    display: flex;
     justify-content: center;
-    background-color: #181818;
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #f5f5f5;
-    }
+.search-form {
+    width: 20rem;
+    outline: none;
+    border: none;
+    background-color: #191b1f;
+    color: #73ade9;
+    font-size: 16.5px;
+    padding-top: 10px;
+    font-family: 'SFMono Nerd Font', monospace;
+}
 
-    #terminal {
-        background-color: white;
-    }
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
 
-    #code {
-        background-color: white;
-        color: black;
-    }
-
-    .active-tab {
-        background-color: lightgrey;
-        color: black;
-    }
-
-    .tab {
-        background-color: #f5f5f5;
-        color: black;
-    }
-
-    .form-inline input {
-        background-color: white;
-        color: black
-    }
-
-    a:link,
-    a:visited {
-        color: black;
-    }
-
-    a:hover {
-        color: hotpink;
-    }
+.title {
+    font-size: 16px;
+    padding-bottom: 7.5px;
+    color: #adadad;
 
 }
 
+li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

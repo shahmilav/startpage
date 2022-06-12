@@ -10,7 +10,7 @@ html,
 body {
     background: var(--color-bg);
     color: var(--color-fg);
-    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-family: "FixedSys Excelsior", monospace;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -41,7 +41,7 @@ body {
     padding-bottom: 30px;
     padding-left: 15px;
     /*border-radius: 5px;*/
-    font-family: 'JetBrainsMono Nerd Font', monospace;
+    font-family: 'FixedSys Excelsior', monospace;
 }
 
 .image img {
@@ -57,7 +57,7 @@ body {
     flex-direction: column;
     align-items: left;
     padding-left: 24px;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 60px;
 
 }
@@ -67,7 +67,7 @@ body {
     flex-direction: column;
     align-items: left;
     padding-left: 24px;
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 15px;
 }
 
@@ -88,9 +88,9 @@ body {
     border: none;
     background-color: #191b1f;
     color: #73ade9;
-    font-size: 16.5px;
+    font-size: 18px;
     padding-top: 10px;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'FixedSys Excelsior', monospace;
 }
 
 .links {
@@ -103,14 +103,14 @@ body {
 }
 
 .title {
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 7.5px;
     color: #adadad;
 
 }
 
 li {
-    font-size: 15px;
+    font-size: 18px;
     list-style-type: none;
     padding: 5px;
 }

@@ -10,7 +10,7 @@ html,
 body {
     background: var(--color-bg);
     color: var(--color-fg);
-    font-family: "SFMono Nerd Font", monospace;
+    font-family: "JetBrainsMono Nerd Font", monospace;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -41,7 +41,7 @@ body {
     padding-bottom: 30px;
     padding-left: 15px;
     /*border-radius: 5px;*/
-    font-family: 'SFMono Nerd Font', 'JetBrainsMono Nerd Font', monospace;
+    font-family: 'JetBrainsMono Nerd Font', monospace;
 }
 
 .image img {
@@ -90,7 +90,7 @@ body {
     color: #73ade9;
     font-size: 16.5px;
     padding-top: 10px;
-    font-family: 'SFMono Nerd Font', monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .links {
